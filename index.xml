@@ -9,8 +9,8 @@
 <link>https://rgieseke.github.io/blogtest/index.html</link>
 <atom:link href="https://rgieseke.github.io/blogtest/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.322</generator>
-<lastBuildDate>Sun, 20 Aug 2023 22:00:00 GMT</lastBuildDate>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Mon, 21 Aug 2023 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
   <dc:creator>Norman de Plume</dc:creator>
@@ -47,7 +47,7 @@ font-style: inherit;">2</span></span></code></pre></div>
   <category>code</category>
   <category>analysis</category>
   <guid>https://rgieseke.github.io/blogtest/posts/post-with-code/index.html</guid>
-  <pubDate>Sun, 20 Aug 2023 22:00:00 GMT</pubDate>
+  <pubDate>Mon, 21 Aug 2023 00:00:00 GMT</pubDate>
   <media:content url="https://rgieseke.github.io/blogtest/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -68,7 +68,7 @@ font-style: inherit;">2</span></span></code></pre></div>
  ]]></description>
   <category>news</category>
   <guid>https://rgieseke.github.io/blogtest/posts/welcome/index.html</guid>
-  <pubDate>Thu, 17 Aug 2023 22:00:00 GMT</pubDate>
+  <pubDate>Fri, 18 Aug 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

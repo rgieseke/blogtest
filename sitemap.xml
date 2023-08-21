@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rgieseke.github.io/blogtest/posts/welcome/index.html</loc>
-    <lastmod>2023-08-21T08:29:30.373Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rgieseke.github.io/blogtest/index.html</loc>
-    <lastmod>2023-08-21T08:29:30.369Z</lastmod>
+    <loc>https://rgieseke.github.io/blogtest/posts/post-with-code/index.html</loc>
+    <lastmod>2023-08-21T08:49:54.611Z</lastmod>
   </url>
   <url>
     <loc>https://rgieseke.github.io/blogtest/about.html</loc>
-    <lastmod>2023-08-21T08:29:30.369Z</lastmod>
+    <lastmod>2023-08-21T08:49:53.983Z</lastmod>
   </url>
   <url>
-    <loc>https://rgieseke.github.io/blogtest/posts/post-with-code/index.html</loc>
-    <lastmod>2023-08-21T08:29:30.369Z</lastmod>
+    <loc>https://rgieseke.github.io/blogtest/index.html</loc>
+    <lastmod>2023-08-21T08:49:53.367Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rgieseke.github.io/blogtest/posts/welcome/index.html</loc>
+    <lastmod>2023-08-21T08:49:54.267Z</lastmod>
   </url>
 </urlset>

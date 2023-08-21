@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Blogtest"
+  site-url: "https://rgieseke.github.io/blogtest/"
   search: false
   navbar:
     right:

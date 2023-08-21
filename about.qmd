@@ -1,0 +1,11 @@
+---
+title: "About"
+about:
+  template: jolla
+  links:
+    - text: Quarto Blogs
+      href: https://quarto.org/docs/websites/website-blog.html
+
+---
+
+This is a Quarto blog test.

@@ -3,7 +3,11 @@ title: "About"
 about:
   template: jolla
   links:
-    - text: Quarto Blogs
+    - icon: github
+      text: Repo
+      href: https://github.com/rgieseke/blogtest 
+    - icon: book
+      text: Quarto Blogs
       href: https://quarto.org/docs/websites/website-blog.html
 
 ---

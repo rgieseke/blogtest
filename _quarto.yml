@@ -17,7 +17,6 @@ format:
     theme: cosmo
     css: styles.css
     html-math-method: katex
-    include-after-body: giscus.html
 execute:
   freeze: auto
 

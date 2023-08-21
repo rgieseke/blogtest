@@ -7,18 +7,18 @@
     "text": "This is a post with executable code.\nWe can use Python.\n\na = 10\nb = a**2\n\nWe can use the result inside of a \\LaTeX snippet.\n\n\\begin{aligned}\nb & = a^2 \\\\\nb & = 100\n\\end{aligned}\n\nOr in the main text: With a = 10 the value of a^2 is 100."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This is a Quarto blog test."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Blogtest",
     "section": "",
     "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nAug 21, 2023\n\n\nNorman de Plume\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To The Test Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nAug 18, 2023\n\n\nNorman de Plume\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is a Quarto blog test."
   },
   {
     "objectID": "posts/welcome/index.html",

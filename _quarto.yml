@@ -12,6 +12,17 @@ website:
         href: https://github.com/rgieseke/blogtest
       - icon: rss
         href: index.xml
+  comments:
+    giscus:
+      repo: "rgieseke/blogtest"
+      repo-id: "R_kgDOKJiL4A"
+      category: "Announcements"
+      category-id: "DIC_kwDOKJiL4M4CYvo4"
+      mapping: "pathname"
+      reactions-enabled: false
+      input-position: "bottom"
+      theme: "preferred_color_scheme"
+      language: "en"
 format:
   html:
     theme: cosmo

@@ -1,0 +1,16 @@
+---
+title: "With References"
+description: "Just a test with references"
+author: "Norman de Plume"
+date: "2023-08-21"
+bibliography: references.bib
+---
+
+This is just a test with some citations, e.g. @knuth1968art, @knuth1977fast.
+All done with Quarto [@Allaire_Quarto_2022].
+We can also cite a website [@Quarto].
+
+### References
+
+::: {#refs}
+:::

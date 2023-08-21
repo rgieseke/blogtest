@@ -1,7 +1,7 @@
 {
-  "hash": "4f9cdc2044d43bc7b609594267962a89",
+  "hash": "41657e04a2d79fb774d8d71b71f56eb2",
   "result": {
-    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"Norman de Plume\"\ndate: \"2023-08-21\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\nThis is a post with executable code.\n\nWe can use Python.\n\n::: {#75c301c3 .cell execution_count=1}\n``` {.python .cell-code}\na = 10\nb = a**2\n```\n:::\n\n\nWe can use the result inside of a $\\LaTeX$ snippet.\n\n$$\n\\begin{aligned}\nb & = a^2 \\\\\nb & = 100\n\\end{aligned}\n$$ \n\nOr in the main text: With $a = 10$ the value of $a^2$ is 100.\n\n",
+    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"Norman de Plume\"\ndate: \"2023-08-21 09:00\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\nThis is a post with executable code.\n\nWe can use Python.\n\n::: {#133db2e1 .cell execution_count=1}\n``` {.python .cell-code}\na = 10\nb = a**2\n```\n:::\n\n\nWe can use the result inside of a $\\LaTeX$ snippet.\n\n$$\n\\begin{aligned}\nb & = a^2 \\\\\nb & = 100\n\\end{aligned}\n$$ \n\nOr in the main text: With $a = 10$ the value of $a^2$ is 100.\n\n",
     "supporting": [
       "index_files"
     ],

@@ -2,7 +2,7 @@
 title: "With References"
 description: "Just a test with references"
 author: "Norman de Plume"
-date: "2023-08-21"
+date: "2023-08-21 12:00"
 bibliography: references.bib
 ---
 

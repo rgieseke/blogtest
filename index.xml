@@ -20,7 +20,7 @@
 
 
 
-<p>This is just a test with some citations, e.g. <span class="citation" data-cites="knuth1968art">Knuth (1968)</span>, <span class="citation" data-cites="knuth1977fast">Knuth, Morris, and Pratt (1977)</span>. All done with Quarto <span class="citation" data-cites="Allaire_Quarto_2022">(Allaire et al. 2022)</span>. We can also cite a website <span class="citation" data-cites="Quarto">(<span>“Quarto”</span> n.d.)</span>.</p>
+<p>This is just a test with some citations, e.g. <span class="citation" data-cites="knuth1968art">Knuth (1968)</span> and <span class="citation" data-cites="knuth1977fast">Knuth, Morris, and Pratt (1977)</span>. All done with Quarto <span class="citation" data-cites="Allaire_Quarto_2022">(Allaire et al. 2022)</span>. We can also cite a website <span class="citation" data-cites="Quarto">(<span>“Quarto”</span> n.d.)</span>.</p>
 <section id="references" class="level3">
 <h3 class="anchored" data-anchor-id="references">References</h3>
 <div id="refs" class="references csl-bib-body hanging-indent">

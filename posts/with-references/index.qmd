@@ -6,7 +6,7 @@ date: "2023-08-21 12:00"
 bibliography: references.bib
 ---
 
-This is just a test with some citations, e.g. @knuth1968art, @knuth1977fast.
+This is just a test with some citations, e.g. @knuth1968art and @knuth1977fast.
 All done with Quarto [@Allaire_Quarto_2022].
 We can also cite a website [@Quarto].
 

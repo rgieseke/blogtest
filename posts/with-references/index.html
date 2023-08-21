@@ -8,8 +8,9 @@
 
 <meta name="author" content="Norman de Plume">
 <meta name="dcterms.date" content="2023-08-21">
+<meta name="description" content="Just a test with references">
 
-<title>Blogtest - Post With Code</title>
+<title>Blogtest - With References</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,41 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
 }
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-</style>
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -86,22 +72,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -147,13 +117,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Post With Code</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
-              </div>
-                  </div>
+      <h1 class="title">With References</h1>
+                  <div>
+        <div class="description">
+          Just a test with references
+        </div>
+      </div>
+                </div>
   </div>
     
   
@@ -187,22 +157,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>This is a post with executable code.</p>
-<p>We can use Python.</p>
-<div id="133db2e1" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">10</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> a<span class="op">**</span><span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This is just a test with some citations, e.g. <span class="citation" data-cites="knuth1968art">Knuth (<a href="#ref-knuth1968art" role="doc-biblioref">1968</a>)</span>, <span class="citation" data-cites="knuth1977fast">Knuth, Morris, and Pratt (<a href="#ref-knuth1977fast" role="doc-biblioref">1977</a>)</span>. All done with Quarto <span class="citation" data-cites="Allaire_Quarto_2022">(<a href="#ref-Allaire_Quarto_2022" role="doc-biblioref">Allaire et al. 2022</a>)</span>. We can also cite a website <span class="citation" data-cites="Quarto">(<a href="#ref-Quarto" role="doc-biblioref"><span>“Quarto”</span> n.d.</a>)</span>.</p>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Allaire_Quarto_2022" class="csl-entry" role="listitem">
+Allaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, and Christophe Dervieux. 2022. <span>“<span>Quarto</span>.”</span> <a href="https://doi.org/10.5281/zenodo.5960048">https://doi.org/10.5281/zenodo.5960048</a>.
 </div>
-<p>We can use the result inside of a <span class="math inline">\LaTeX</span> snippet.</p>
-<p><span class="math display">
-\begin{aligned}
-b &amp; = a^2 \\
-b &amp; = 100
-\end{aligned}
-</span></p>
-<p>Or in the main text: With <span class="math inline">a = 10</span> the value of <span class="math inline">a^2</span> is 100.</p>
+<div id="ref-knuth1968art" class="csl-entry" role="listitem">
+Knuth, Donald E. 1968. <span>“The Art of Computer Programming, Vol 1: Fundamental.”</span> <em>Algorithms. Reading, MA: Addison-Wesley</em>.
+</div>
+<div id="ref-knuth1977fast" class="csl-entry" role="listitem">
+Knuth, Donald E, James H Morris Jr, and Vaughan R Pratt. 1977. <span>“Fast Pattern Matching in Strings.”</span> <em>SIAM Journal on Computing</em> 6 (2): 323–50.
+</div>
+<div id="ref-Quarto" class="csl-entry" role="listitem">
+<span>“Quarto.”</span> n.d. Accessed August 21, 2023. <a href="https://quarto.org">https://quarto.org</a>.
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
